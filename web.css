@@ -1,0 +1,170 @@
+body{
+	background-color:#dbd4ce;
+	display:block;
+	margin:0px;
+	width:100%;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+nav,form,button,.input,h4,.end{
+	display:inline-block;
+	background-color:black;
+	color:white;
+	display:relative;
+}
+nav form,select,button,input,.input,h4 {
+	margin-right:15px;
+	display:relative;
+}
+.input input{
+	height:15px;
+	width:450px;
+	height:40px;
+	margin-right:0px;
+}
+.input button{
+	height:15px;
+	width:40px;
+	height:40px;
+	margin-left:0px;
+	background-color:#ffa305;
+	color:gray;
+}
+form select{
+	height:15px;
+	width:50px;
+	height:40px;
+	margin-left:35px;
+	margin-right:0px;
+	background-color:#e8e1d5;
+}
+form #class{
+	height:15px;
+	width:200px;
+	height:40px;
+	margin-left:2px;
+	margin-right:0px;
+	background-color:black;
+	color:white;
+}
+nav{
+	margin:0px;
+	width:100%;
+	margin-bottom:25px;
+}
+header img{
+	width:100%;
+	height:300px;
+	vertical-align: middle;
+}
+header{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.pad img{
+	width:21%;
+	height:25%;
+	margin-top:50px;
+	margin-left:30px;
+}
+.pad{
+	padding:10px;
+	background-color:#ebe9e6;
+	color:white;
+	margin-top:20px;
+	width:340px;
+	height:250px;
+	margin-left:50px;
+}
+.pad button{
+	float:right;
+	color:white;
+}
+.pad p{
+	text-align:center;
+	background-color:green;
+}
+.pad h2,.set h2{
+	float:top;
+	text-align:center;
+	color:black;
+	background-color:white;
+	text-decoration:none;
+}
+.padding .pad{
+	display:inline-block;
+}
+.best{
+	margin-top:25px;
+	margin-left:20px;
+}
+.set img{
+	background-color:#ebe9e6;
+	color:white;
+	width:240px;
+	height:150px;
+	margin-left:50px;
+}
+.set{
+	padding:20px;
+	background-color:white;
+	margin:0px;
+	margin-right:20px;
+}
+.set button{
+	float:right;
+	margin-top:150px;
+}
+.set a{
+	 text-decoration:none;
+}
+.sign,h3,button{
+	text-align:center;
+}
+.sign button{
+	 width:350px;
+	 height:50px;
+	 color:black;
+	 background-color:yellow;
+	 box-sizing:border-box;
+}
+.footer{
+	margin-top:40px;
+	padding:80px;
+	color:black;
+	background-color:gray;
+}
+.fot,ul{
+	display:inline-block;
+	text-decoration:none;
+}
+.fot,li{
+	margin-left:50px;
+	
+}
